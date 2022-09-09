@@ -1,1 +1,0 @@
-import{f as n,o,c as a,t as r}from"./index.8f380576.js";const s=["href"],_=n({__name:"gh-repo",props:{name:null},setup(t){const e=t;return(c,p)=>(o(),a("a",{href:`https://github.com/${e.name}`,target:"_blank"},r(e.name),9,s))}});export{_};

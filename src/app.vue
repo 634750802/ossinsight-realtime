@@ -2,7 +2,9 @@
   <div class="app" :style="{ '--side-size': size.up(route.meta.main?.breakpoint ?? 'md') ? undefined : '100%' }">
     <template v-if="size.up(route.meta.main?.breakpoint ?? 'md')">
       <header>
-        <Logo class="logo" />
+        <a href="https://ossinsight.io">
+          <Logo class="logo" />
+        </a>
         <flex-spacer />
         <h1 :style="route.meta.title.style">{{ route.meta.title.text }}</h1>
         <flex-spacer />

@@ -30,7 +30,7 @@ const router = createRouter({
       },
       meta: {
         title: {
-          text: 'Real-time GitHub Contribution City 2023',
+          text: `Real-time GitHub Contribution City ${new Date().getFullYear()}`,
           style: {
             color: 'white'
           }
